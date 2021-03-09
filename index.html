@@ -60,23 +60,40 @@
                     </button>
                     <p class="modal-title">Оставьте свои данные, мы вам перезвоним</p>
                     <div class="input-container">
-                        <label for="name">Имя</label> <br>
-                        <input class="input-area" type="text" name="name" id="name">
+                        <label class="form-label" for="name">Имя</label>
+                        <input class="input-area" type="text" name="name" id="name" placeholder="">
+                        <svg class="icon-label" width="18" height="18">
+                            <use href="./images/icons/symbols.svg#icon-name"></use>
+                        </svg>
                     </div>
                     <div class="input-container">
-                        <label for="tel">Телефон</label> <br>
-                        <input class="input-area" type="tel" name="tel" id="tel">
+                        <label class="form-label" for="tel">Телефон</label>
+                        <input class="input-area" type="tel" name="tel" id="tel" placeholder="">
+                        <svg class="icon-label" width="18" height="18">
+                            <use href="./images/icons/symbols.svg#icon-phone"></use>
+                        </svg>
                     </div>
                     <div class="input-container">
-                        <label for="mail">Почта</label> <br>
-                        <input class="input-area" type="email" name="mail" id="mail">
+                        <label class="form-label" for="mail">Почта</label>
+                        <input class="input-area" type="email" name="mail" id="mail" placeholder="">
+                        <svg class="icon-label" width="18" height="18">
+                            <use href="./images/icons/symbols.svg#icon-email"></use>
+                        </svg>
                     </div>
                     <label class="input-container" for="comment">Комментарий
-                        <input class="input-comment" type="textarea" rows="5" name="comment" id="comment" placeholder="Введите текст">
+                        <textarea class="comment" rows="5" name="comment" id="comment" placeholder="Введите текст"></textarea>
                     </label> 
-                    <label class="checkbox" >
-                        <input tclass="input-area" type="checkbox" name="agreement">
-                        Соглашаюсь с рассылкой и принимаю <a href="#">Условия договора</a></label>
+                    <div class="checkbox">
+                        <label>
+                            <input class="input-checkbox" tclass="input-area" type="checkbox" name="agreement">
+                            <svg class="icon-checkbox" width="18" height="18">
+                                <use href="./images/icons/symbols.svg#kvadrat"></use>
+                            </svg>
+                            <svg class="icon-checkbox2" width="18" height="18">
+                                <use href="./images/icons/symbols.svg#icon-check"></use>
+                            </svg>
+                            Соглашаюсь с рассылкой и принимаю <a href="#">Условия договора</a></label>
+                    </div>
                     <button class="modal-button-send">Отправить</button>
                 </div>
             </div>
