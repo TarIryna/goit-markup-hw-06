@@ -364,13 +364,6 @@ img {
     visibility: visible;
 }
 
-/* .checkbox:checked {
-    background: red;
-    /* top: 2px;
-    left: -2px;
-    background-color: #FFFFFF;
-    visibility: visible; */
-} */
 .comment:focus,
 .comment:hover {
     outline: none;
