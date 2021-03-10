@@ -245,18 +245,15 @@ img {
     right: 6px;
     width: 17px;
     height: 17px;
-
+}
+.modal-button:focus .close-icon,
+.modal-button:hover .close-icon{
+    fill: var(--blue-color);
 }
 .input-container{
     position: relative;
     display: block;
     margin-top: 10px;
-    color: var(--main-color);
-    font-size: 12px;
-    letter-spacing: 0.01em;
-    margin-bottom: 4px;
-    font-weight: 400;
-    margin-bottom: 0;
 }
 .comment{
     height: 120px;
@@ -268,6 +265,7 @@ img {
     letter-spacing: 0.01em;
     text-align: start;
     resize: none;
+    margin-top: 4px;
 }
 .comment::placeholder{
     font-size: 14px;
@@ -275,6 +273,14 @@ img {
     color: rgba(117, 117, 117, 0.5);
     text-align: start;
     
+}
+.form-label{
+    display: block;
+    margin-bottom: 4px;
+    font-size: 12px;
+    letter-spacing: 0.01em;
+    color: var(--main-color);
+    font-weight: 400;
 }
 .input-area{
     width: 100%;
@@ -333,7 +339,7 @@ img {
 
 .icon-label{
     position: absolute;
-    top: 23px;
+    top: 50%;
     left: 12px;
 }
 .input-area:focus + .icon-label,
@@ -667,6 +673,7 @@ img {
 }
 .footer .container {
 display: flex;
+justify-content:space-between;
 }
 .buttons-portfolio{
     font-weight: 500;
